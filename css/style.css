@@ -84,7 +84,7 @@ a:hover{
 
 .leftimg{
   order: 1;
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,8 +93,8 @@ a:hover{
 }
 
 .rightimg{
-  order: 2;
-  width: 50%;
+  order: 3;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,13 +103,13 @@ a:hover{
 }
 
 .left{
-  order: 3;
-  width: 50%;
+  order: 2;
+  width: 100%;
 }
 
 .right{
   order: 4;
-  width: 50%;
+  width: 100%;
 }
 
 .videorow1{
