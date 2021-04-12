@@ -1,5 +1,5 @@
 html, body, article{
-  background-color:#010201;
+  background-color:#2D53A5;
   width: 100%;
   margin: 0;
 }
@@ -22,7 +22,7 @@ img{
 
 .footer{
   flex-shrink: 0;
-  background-color:#68FF75;
+  background-color:#4685BF;
   width: 100%;
   height: 4em;
   position: relative;
@@ -32,7 +32,7 @@ img{
 .links{
   display: flex;
   position: relative;
-  background-color:#68FF75;
+  background-color:#4685BF;
   width: 100%;
   height: 4em;
 }
@@ -53,25 +53,25 @@ a {
 
 a:link{
   font-family: Tahoma, Geneva, sans-serif;
-  color: #010201;
+  color: #EFEEED;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 a:visited{
   font-family: Tahoma, Geneva, sans-serif;
-  color: #010201;
+  color: #EFEEED;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 a:hover{
-  color: #FFFFFF;
-  text-shadow: 2px 2px 4px #010201;
+  color: #EFEEED;
+  text-shadow: 2px 2px 4px #2D53A5;
 }
 
 .link:hover{
-  background-color: #68FFE5;
+  background-color: #91B9E0;
 }
 
 .main{
@@ -82,8 +82,7 @@ a:hover{
   flex: 1 0 auto;
 }
 
-.leftimg{
-  order: 1;
+.img1{
   width: 100%;
   display: flex;
   justify-content: center;
@@ -93,8 +92,7 @@ a:hover{
   max-height: 20em;
 }
 
-.rightimg{
-  order: 3;
+.img2{
   width: 100%;
   display: flex;
   justify-content: center;
@@ -104,14 +102,70 @@ a:hover{
   max-height: 20em;
 }
 
-.left{
-  order: 2;
+.content1{
   width: 100%;
 }
 
-.right{
-  order: 4;
+.box1{
+  display: flex;
+  flex-direction: row;
   width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.b1{
+  background-color: #2D53A5;
+  flex-grow: 1;
+}
+
+.b2{
+  background-color: #25407A;
+  flex-grow: 2;
+  width: 10em;
+  border: 2em solid #2D53A5;
+  padding: 1em;
+}
+
+.b3{
+  background-color: #2D53A5;
+  flex-grow: 1;
+}
+
+.box2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.content2{
+  width: 100%;
+}
+
+.box3{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.box4{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.box5{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .videorow1{
@@ -154,7 +208,7 @@ a:hover{
 
 .text{
   font-family: Tahoma, Geneva, sans-serif;
-  color: #FFFFFF;
+  color: #EFEEED;
   text-align: center;
 }
 
@@ -166,7 +220,7 @@ h1 {
 
 .centertextright {
   font-family: Tahoma, Geneva, sans-serif;
-  color: #FFFFFF;
+  color: #EFEEED;
   text-shadow: 2px 2px 4px #010201;
   text-transform: uppercase;
   font-size: 5em;
@@ -180,7 +234,7 @@ h1 {
 
 .centertextleft{
   font-family: Tahoma, Geneva, sans-serif;
-  color: #FFFFFF;
+  color: #EFEEED;
   text-shadow: 2px 2px 4px #010201;
   text-transform: uppercase;
   font-size: 5em;
@@ -192,7 +246,7 @@ h1 {
   padding: 1em 0em 1em 0em; 
 }
 .contact-section {
-  background: #FFFFFF;
+  background: #EFEEED;
   padding: 30px 0 50px 0;
   text-align: center;
 }
@@ -258,8 +312,8 @@ h1 {
   margin-left: auto;
   padding: 8px 16px;
   border: none;
-  background: #68FF75;
-  color: #010201;
+  background: #4685BF;
+  color: #2D53A5;
   text-transform: uppercase;
   letter-spacing: .09em;
   border-radius: 2px;
@@ -288,7 +342,7 @@ h1 {
   flex-direction: row;
   width: 16.6666666667%;
   text-align: center;
-  background-color:#68FF75;
+  background-color:#4685BF;
 }
 
 .social2{
@@ -296,7 +350,7 @@ h1 {
   flex-direction: row;
   width: 16.6666666667%;
   text-align: center;
-  background-color:#68FF75;
+  background-color:#4685BF;
 }
 
 .social3{
@@ -304,7 +358,7 @@ h1 {
   flex-direction: row;
   width: 16.6666666667%;
   text-align: center;
-  background-color:#68FF75;
+  background-color:#4685BF;
 }
 
 .social4{
@@ -312,7 +366,7 @@ h1 {
   flex-direction: row;
   width: 16.6666666667%;
   text-align: center;
-  background-color:#68FF75;
+  background-color:#4685BF;
 }
 
 .social5{
@@ -320,7 +374,7 @@ h1 {
   flex-direction: row;
   width: 16.6666666667%;
   text-align: center;
-  background-color:#68FF75;
+  background-color:#4685BF;
 }
 
 .social6{
@@ -328,7 +382,7 @@ h1 {
   flex-direction: row;
   width: 16.6666666667%;
   text-align: center;
-  background-color:#68FF75;
+  background-color:#4685BF;
 }
 
 .sites{
@@ -350,7 +404,7 @@ h1 {
   flex-direction: row;
   width: 50%;
   text-align: center;
-  background-color:#68FF75;
+  background-color:#4685BF;
 }
 
 .site2{ 
@@ -358,39 +412,39 @@ h1 {
   flex-direction: row;
   width: 50%;
   text-align: center;
-  background-color:#68FF75;
+  background-color:#4685BF;
 }
 
 .site1:hover{
-  background-color: #68FFE5;
+  background-color: #91B9E0;
 }
 
 .site2:hover{
-  background-color: #68FFE5;
+  background-color: #91B9E0;
 }
 
 .social1:hover{
-  background-color: #68FFE5;
+  background-color: #91B9E0;
 }
 
 .social2:hover{
-  background-color: #68FFE5;
+  background-color: #91B9E0;
 }
 
 .social3:hover{
-  background-color: #68FFE5;
+  background-color: #91B9E0;
 }
 
 .social4:hover{
-  background-color: #68FFE5;
+  background-color: #91B9E0;
 }
 
 .social5:hover{
-  background-color: #68FFE5;
+  background-color: #91B9E0;
 }
 
 .social6:hover{
-  background-color: #68FFE5;
+  background-color: #91B9E0;
 }
 
 @media only screen and (max-width: 1400px) {
