@@ -90,6 +90,7 @@ a:hover{
   align-items: center;
   overflow: hidden;
   position: relative;
+  max-height: 20em;
 }
 
 .rightimg{
@@ -100,6 +101,7 @@ a:hover{
   align-items: center;
   overflow: hidden;
   position: relative;
+  max-height: 20em;
 }
 
 .left{
@@ -173,7 +175,6 @@ h1 {
   display: inline-block;
   width: 100%;
   text-align: center;
-  line-height: 2em;
   padding: 1em 0em 1em 0em; 
 }
 
@@ -188,7 +189,6 @@ h1 {
   display: inline-block;
   width: 100%;
   text-align: center;
-  line-height: 2em;
   padding: 1em 0em 1em 0em; 
 }
 .contact-section {
