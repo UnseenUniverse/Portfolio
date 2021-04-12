@@ -1,2 +1,4 @@
 # Portfolio
-Coding Portfolio Website
+## Coding Portfolio Website
+Tony Condon's personal portfolio/resume website.
+Still a WIP
