@@ -1,18 +1,24 @@
-﻿# Git Ignore for Portfolio
+﻿#### Git Ignore for Portfolio ####
 
-# ignore all files in .idea directory
-.idea/
+## .idea directory files ##
+.idea/**/discord.xml
+.idea/**/encodings.xml
+.idea/**/indexLayout.xml
+.idea/**/misc.xml
+.idea/**/projectSettingsUpdater.xml
+.idea/**/vcs.xml
+.idea/**/workspace.xml
 
-# ignore all files starting with . or ~
+## ignore all files starting with . or ~ ##
 .*
 ~*
 
-# ignore log files and databases
+## ignore log files and databases ##
 *.log
 *.sql
 *.sqlite
 
-# ignore compiled files
+## ignore compiled files ##
 *.com
 *.class
 *.dll
@@ -20,7 +26,7 @@
 *.o
 *.so
 
-# ignore packaged files
+## ignore packaged files ##
 *.7z
 *.dmg
 *.gz
@@ -30,10 +36,10 @@
 *.tar
 *.zip
 
-# ignore private/secret files
+## ignore private/secret files ##
 *.der
 *.key
 *.pem
 
-# track these files, if they exist
+## track these files, if they exist ##
 !.gitignore
