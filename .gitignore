@@ -1,4 +1,7 @@
-﻿#Git Ignore for Portfolio
+﻿# Git Ignore for Portfolio
+
+# ignore all files in .idea directory
+.idea/
 
 # ignore all files starting with . or ~
 .*
